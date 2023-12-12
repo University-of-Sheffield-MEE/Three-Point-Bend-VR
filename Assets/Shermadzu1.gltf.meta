@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: e382aa2244cc9934ebb31e8e84a612cd
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 715df9372183c47e389bb6e19fbc3b52, type: 3}
+  editorImportSettings:
+    generateSecondaryUVSet: 0
+  importSettings:
+    nodeNameMethod: 1
+    animationMethod: 2
+    generateMipMaps: 1
+    defaultMinFilterMode: 9729
+    defaultMagFilterMode: 9729
+    anisotropicFilterLevel: 1
+  assetDependencies:
+  - type: 0
+    originalUri: Assets\Shermadzu1.bin
+    assetPath: Assets\Shermadzu1.bin
+  reportItems: []

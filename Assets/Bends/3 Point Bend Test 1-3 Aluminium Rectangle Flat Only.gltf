@@ -1,0 +1,119 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Aluminium Rectange Flat",
+            "rotation" : [
+                -0.5,
+                0.5,
+                0.5,
+                0.5
+            ],
+            "translation" : [
+                0,
+                0.08476728945970535,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Aluminium",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.31322264671325684,
+                    0.3237622082233429,
+                    0.36736413836479187,
+                    1
+                ],
+                "metallicFactor" : 0.41818180680274963,
+                "roughnessFactor" : 0.6875
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Aluminium Rectange Flat.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 32,
+            "max" : [
+                0.006415000185370445,
+                0.11999999731779099,
+                0.003234999952837825
+            ],
+            "min" : [
+                -0.006415000185370445,
+                -0.11999999731779099,
+                -0.003234999952837825
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 32,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 60,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 384,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 384,
+            "byteOffset" : 384,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 120,
+            "byteOffset" : 768,
+            "target" : 34963
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 888,
+            "uri" : "3 Point Bend Test 1-3 Aluminium Rectangle Flat Only.bin"
+        }
+    ]
+}
